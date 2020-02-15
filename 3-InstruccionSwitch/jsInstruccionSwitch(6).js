@@ -3,6 +3,7 @@ function mostrar()
 //tomo la edad  
 var laHora = document.getElementById('hora').value;
 
+<<<<<<< HEAD
 switch (laHora) {
     case "07":
     case "08":
@@ -40,6 +41,8 @@ switch (laHora) {
                 alert("La hora no existe")
       break;
 }
+=======
+>>>>>>> 049bc3969276f9987945acb205f618c95d26f2b3
 
 
 }//FIN DE LA FUNCIÓN

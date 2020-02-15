@@ -2,6 +2,7 @@ function mostrar()
 {
 //tomo la edad  
 var mesDelAño = document.getElementById('mes').value;
+<<<<<<< HEAD
     switch (mesDelAño) {
         case "Febrero":
                         alert("mes de 28 días")
@@ -22,4 +23,13 @@ var mesDelAño = document.getElementById('mes').value;
     }
 //alert (mesDelAño);
 	          
+=======
+
+//alert (mesDelAño);
+	
+	
+
+
+
+>>>>>>> 049bc3969276f9987945acb205f618c95d26f2b3
 }//FIN DE LA FUNCIÓN

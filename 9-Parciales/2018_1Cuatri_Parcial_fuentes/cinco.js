@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //var planetas=prompt("ingrese de un planeta del sistema solar" )
 function mostrar()
 {
@@ -24,4 +25,9 @@ switch (planetas) {
         alert("planeta invalido")
         break;
 }
+=======
+function mostrar()
+{
+
+>>>>>>> 049bc3969276f9987945acb205f618c95d26f2b3
 }

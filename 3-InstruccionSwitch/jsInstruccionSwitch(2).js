@@ -1,5 +1,6 @@
 function mostrar()
 {
+<<<<<<< HEAD
     var mesDelAño = document.getElementById('mes').value;
 //tomo la edad  
 switch (mesDelAño) {
@@ -20,6 +21,12 @@ switch (mesDelAño) {
                         alert( "Falta para el invierno.");
         break;
 }
+=======
+//tomo la edad  
+var mesDelAño = document.getElementById('mes').value;
+
+alert (mesDelAño);
+>>>>>>> 049bc3969276f9987945acb205f618c95d26f2b3
 
 
 

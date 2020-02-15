@@ -1,5 +1,6 @@
 function mostrar()
 {
+<<<<<<< HEAD
  
     var hora=document.getElementById("laHora").value 
 
@@ -47,5 +48,7 @@ function mostrar()
         default: alert("la hora no es válida")
             break;
     }
+=======
+>>>>>>> 049bc3969276f9987945acb205f618c95d26f2b3
 
 }

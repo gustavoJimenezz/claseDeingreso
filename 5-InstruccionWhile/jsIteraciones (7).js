@@ -3,21 +3,25 @@ function mostrar()
 		
 	
 	
-	var contador=0;
-	var calculo;
+	var contador=0
 	var acumulador=0;
-	//var respuesta="si"
-
-	while (contador!=NaN) 
-	{
+	var calculo;
+	var respuesta="si";
+	
+	while (respuesta=="si") 
+	{	
 		
-		contador=prompt("ingrese valor, ingrese SI para salir");
-		//contador=parseInt(contador);
-		acumulador=acumulador+contador;
-		//contador++;
 
+		calculo=parseInt(prompt("ingrese valor"))
+		//calculo=parseInt(calculo)
+		acumulador=acumulador+calculo;
+	    contador++;
+		
+		respuesta=prompt("desea continuar")
+		
 		
 	}
+		
 		
 
 

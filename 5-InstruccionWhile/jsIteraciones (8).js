@@ -5,10 +5,10 @@ function mostrar()
 	var positivo=0;
 	var negativo=1;
 	
-	var respuesta='si';
+	va)r respuesta='si';
 
 
 document.getElementById('suma').value=positivo;
 document.getElementById('producto').value=negativo;
 
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN-

@@ -11,8 +11,8 @@ function mostrar()
 
 	while (contador<5) 
 	{
-		calculo=prompt("ingrese valor")
-		calculo=parseInt(calculo)
+		calculo=parseInt(prompt("ingrese valor"))
+		//calculo=parseInt(calculo)
 		acumulador=acumulador+calculo;
 	    contador++;
 

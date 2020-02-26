@@ -13,7 +13,6 @@ function mostrar()
 		
 
 		calculo=parseInt(prompt("ingrese valor"))
-		//calculo=parseInt(calculo)
 		acumulador=acumulador+calculo;
 	    contador++;
 		

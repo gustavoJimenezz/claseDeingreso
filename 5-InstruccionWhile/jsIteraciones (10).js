@@ -16,11 +16,11 @@ function mostrar()
 	while (respuesta=="si") {
 		numero=parseInt(prompt("ingrese numero"))
 
-		if (numero<0) {
+		if (numero<1) {
 			numnegativos=numnegativos+numero
 			cnegativos++}
 			
-				else if (numero>0){
+				else if (numero>1){
 					numpositivos=numpositivos+numero
 					cpostivos++;
 					}
@@ -31,7 +31,7 @@ function mostrar()
 
 		respuesta=prompt("desea seguir?")
 	 }
-	var diferencia=numnegativos-numpositivos
+	var diferencia=numnegativos+numpositivos
 	
 	alert("1_suma de negativos "+numnegativos+
 	 "\n2_suma de positivos " +numpositivos+
@@ -41,7 +41,7 @@ function mostrar()
 	 "\n6_cantidad de ceros "+cceros+
      "\n7_promedio de positivos "+(numpositivos/cpostivos)+
      "\n9_promedio de negativos "+(numnegativos/cnegativos)+
-     "\n10_diferenciaa entre positivos y negativos "+diferencia)
+	 "\n10_diferenciaa entre positivos y negativos "+diferencia) 	 
 
 	 
 	 

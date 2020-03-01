@@ -2,7 +2,7 @@ function mostrar()
 {
 //tomo la edad  
 var laHora = document.getElementById('hora').value;
-<<<<<<< HEAD
+ 
 //laHora=laHora>=7 && laHora<=11
  switch (laHora) {
        case "7":
@@ -16,9 +16,9 @@ var laHora = document.getElementById('hora').value;
      default:
          break;
  }
-=======
 
->>>>>>> 049bc3969276f9987945acb205f618c95d26f2b3
+
+
 //alert (laHora);
 	
 	

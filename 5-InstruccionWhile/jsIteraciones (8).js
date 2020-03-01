@@ -1,23 +1,26 @@
 function mostrar()
 {
 	var positivo=0;
-	var negativo=0;	
-	//var contador=0
-	//var acumulador=0;
-	var calculo;
+	var negativo=1;	
+
+	var numeros;
 	var respuesta="si";
 	
+	
 	while (respuesta=="si") 
-	{	
+	{numeros=parseInt(prompt("ingrese valor"))
+	while (isNaN(numeros)) {
+		numeros=parseInt(prompt("Error: ingrese numeros"))
 		
-
-		calculo=parseInt(prompt("ingrese valor"))
-		if (calculo<0) {
-			negativo=negativo+calculo
-		} else {
-			positivo=positivo+calculo
-		}
-		//acumulador=acumulador+calculo;
+	}
+		if (numeros<0) {
+			negativo=negativos*numeros
+			
+		  } else {
+			  positivo=numeros
+		  	 positivo=positivo+numeros
+		  }
+		//acumulador=acumulador+numeros;
 	    //contador++;
 		
 		respuesta=prompt("desea continuar")
@@ -27,7 +30,7 @@ function mostrar()
 		
 
 
-document.getElementById('suma').value=positivo;
-document.getElementById('producto').value=negativo;
+document.getElementById('suma').value=negativo;
+document.getElementById('producto').value=positivo;
 
 }//FIN DE LA FUNCIÓN-
